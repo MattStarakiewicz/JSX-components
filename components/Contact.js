@@ -8,7 +8,7 @@ var Contact = React.createClass({
         <div className={'contactItem'}>
           <img className={'contactImage'} src={'https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-256.png'}/>
           <p className={'contactLabel'}>
-               Imię i Nazwisko: {this.props.contact.firstName}
+               Imię i Nazwisko: {this.props.item.firstName}
           </p>
           <p className={'contactLabel'}>
                : {'' + this.props.item.lastName}
